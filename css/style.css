@@ -1,0 +1,117 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1 {
+font-family: 'Cormorant SC', serif;
+font-size: 38px;
+margin-bottom: 0px;
+}
+
+h2 {
+font-family: 'Cormorant SC', serif;
+font-size: 14px;
+margin-top: 0px;
+}
+
+figure {
+margin: 0 10px 0 0;
+padding: 0;
+}
+
+article {
+background-color: #ffffff;
+padding: 10px;
+width: 100%;
+
+}
+
+.card {
+background-color: white;
+margin-top: 15px;
+max-width: 600px;
+  box-shadow: 5px 5px 25px #f5f5f5;
+}
+
+.title{
+font-size: 20px;
+}
+
+.extract {
+color: gray;
+}
+
+#search-container {
+border-style: solid;
+border-color: gray;
+border-width: 2px;
+padding: 5px;
+width: 500px;
+}
+
+#search-input {
+width: 100%;
+opacity: 1;
+padding: 10px;
+border: none;
+}
+
+.button-container {
+padding: 10px 0;
+}
+.flex-single-col {
+display: flex;
+flex-flow: column nowrap;
+align-items: center;
+}
+
+.flex-row {
+display: flex;
+flex-flow: row;
+}
+
+.flex-column {
+display: flex;
+flex-flow: column;
+}
+
+button {
+height: 40px;
+margin: 0 10px;
+padding: 0 10px;
+color: grey;
+background-color: #e2e2e2;
+border-radius: 3px;
+border-style: none;
+}
+
+img, embed, object, video {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.img-container {
+height: 100px;
+width: 100px;
+}
+
+* {
+font-family: 'Helvetica', sans-serif;
+font-size: 16px;
+}
+
+@media only screen and (max-width: 505px) {
+  #search-container {
+    width: 100%;
+  }
+
+  #search-input {
+     }
+
+#form {
+  align-self: stretch;
+}
+}
